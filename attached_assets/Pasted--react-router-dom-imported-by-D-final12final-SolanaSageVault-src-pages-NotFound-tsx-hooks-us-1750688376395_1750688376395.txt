@@ -1,0 +1,30 @@
+ react-router-dom (imported by D:/final12final/SolanaSageVault/src/pages/NotFound.tsx)
+  @/hooks/use-toast (imported by D:/final12final/SolanaSageVault/src/components/ui/toaster.tsx)
+  @/components/ui/toast (imported by D:/final12final/SolanaSageVault/src/components/ui/toaster.tsx)
+  lucide-react (imported by D:/final12final/SolanaSageVault/src/components/ui/select.tsx)
+  @/lib/utils (imported by D:/final12final/SolanaSageVault/src/components/ui/separator.tsx)
+  @radix-ui/react-progress (imported by D:/final12final/SolanaSageVault/src/components/ui/progress.tsx)
+  @radix-ui/react-label (imported by D:/final12final/SolanaSageVault/src/components/ui/label.tsx)
+  @radix-ui/react-select (imported by D:/final12final/SolanaSageVault/src/components/ui/select.tsx)
+  @radix-ui/react-separator (imported by D:/final12final/SolanaSageVault/src/components/ui/separator.tsx)
+
+Are they installed?
+    at file:///D:/final12final/SolanaSageVault/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:14849:15
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async file:///D:/final12final/SolanaSageVault/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:46985:28
+5:18:14 PM [vite] (client) Pre-transform error: Failed to resolve import "react-router-dom" from "src/App.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: D:/final12final/SolanaSageVault/src/App.tsx:1:55
+  1  |  import { jsxDEV } from "react/jsx-dev-runtime";
+  2  |  import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+     |                                                          ^
+  3  |  import Index from "./pages/Index";
+  4  |  import NotFound from "./pages/NotFound";
+5:18:14 PM [vite] (client) Pre-transform error: Failed to resolve import "react-router-dom" from "src/pages/NotFound.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: D:/final12final/SolanaSageVault/src/pages/NotFound.tsx:2:21
+  1  |  import { jsxDEV } from "react/jsx-dev-runtime";
+  2  |  import { Link } from "react-router-dom";
+     |                        ^
+  3  |  import { Button } from "../components/ui/button";
+  4  |  import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "../components/ui/card";
